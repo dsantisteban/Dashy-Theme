@@ -32,7 +32,6 @@ body {
     background: #424a5d;
     border-bottom: 1px solid #293241;
 }
-
 /*HEADER*/
 .header {
     position: fixed;
@@ -109,7 +108,6 @@ body {
 .sub-menu span{
     padding-left: 10px;
 }
-
 /*Section main-content*/
 #main-content {
     margin-left: 210px;
