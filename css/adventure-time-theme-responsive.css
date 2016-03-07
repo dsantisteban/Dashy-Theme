@@ -7,7 +7,6 @@
     .main-chart {
         padding-top: 0px;
     }
-    /*sidebar*/
     #sidebar {
         height: auto;
         overflow: hidden;
@@ -15,56 +14,17 @@
         width: 100%;
         z-index: 1001;
     }
-
-    /* section main-content */
-    #main-content {
-        margin: 0px;
-        position: none;
-    }
-    #sidebar > ul > li {
-        margin: 0 10px 5px 10px;
-    }
-    #sidebar > ul > li > a {
-        height:35px;
-        line-height:35px;
-        padding: 0 10px;
-    }
-
-    #sidebar ul > li > a .arrow, 
-    #sidebar > ul > li > a .arrow.open {
-        margin-right: 10px;
-        margin-top: 15px;
-    }
-
-    #sidebar > ul > li > a, 
-    #sidebar > ul > li > ul.sub > li {
-        width: 100%;
-    }
-    /* sidebar */
-    #sidebar {
+    #main-content,
+     #sidebar {
         margin: 0px;
     }
-
-    /* sidebar collapse */
-    #sidebar .btn-navbar.collapsed .arrow {
-        display: none;
-    }
-
-    .modal-footer .btn {
-        margin-bottom: 0px;
-    }
-
     .btn {
         margin-bottom: 5px;
     }
-
-    ul.sidebar-menu li ul.sub li a {
+    ul.sidebar-menu li .sub li a {
         padding: 0;
     }
-
     .img-responsive {
         width: 100%;
     }
-
 }
-
